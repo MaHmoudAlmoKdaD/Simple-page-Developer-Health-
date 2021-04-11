@@ -1,0 +1,376 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#nav-wrapper {
+  width: 100%;
+  height: 4rem;
+  background: #005188;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  opacity: 0.9;
+  z-index: 100;
+}
+
+#nav-wrapper .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.logo-img-container {
+  width: 3.7rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.logo-img-container img {
+  width: 100%;
+  position: absolute;
+}
+
+.header-text img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.nav-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.nav-info-container .ul-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-info-container .ul-container p {
+  position: absolute;
+  left: 0;
+  color: white;
+  font-size: 2rem;
+  margin-top: -0.4rem;
+  font-family: "Mathlete Bulky";
+}
+
+.nav-info-container ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  color: white;
+  font-size: 1.5rem;
+  padding-right: 1.9rem;
+}
+
+.nav-info-container ul li {
+  width: 2rem;
+  margin-left: 7%;
+  list-style-type: none;
+  text-align: center;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.nav-info-container ul li .icon {
+  color: white;
+}
+
+.nav-info-container ul li .icon:hover {
+  color: #ff5100;
+}
+
+.nav-info-container ul li:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.reverse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.container-body .container-img-for-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50rem;
+}
+
+.container-body .container-img-for-text .header {
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.container-body .container-img-for-text .header img {
+  width: 100%;
+}
+
+.container-body .header-text {
+  margin: 20px 10px 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-body .header-text .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 80rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-body .header-text .row .col-1 {
+  width: 45%;
+}
+
+.container-body .header-text .row .col-1 h2 {
+  float: left;
+  margin-right: 5px;
+  color: #1b4f94;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+}
+
+.container-body .header-text .row .col-1 h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.container-body .header-text .row .col-2 {
+  width: 45%;
+  overflow: hidden;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-body .header-text .row .col-2 img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.container-body .header-text .row .col-2:hover {
+  -webkit-box-shadow: 3px 0 35px 1px black;
+          box-shadow: 3px 0 35px 1px black;
+}
+
+.container-body .intro-for-problems {
+  position: absolute;
+  top: 56%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-body .intro-for-problems .intro-for-problems-container {
+  width: 70%;
+}
+
+.container-body .intro-for-problems .intro-for-problems-container h1 {
+  color: #fff;
+  padding-bottom: 1rem;
+  font-family: "Poppins", cursive;
+  font-weight: 500;
+}
+
+.container-body .intro-for-problems .intro-for-problems-container h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 20rem;
+  margin-top: 1rem;
+  background: #005188;
+}
+
+.footer .footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 80rem;
+  height: 100%;
+  color: white;
+}
+
+.footer .footer-container .footer-flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 1rem;
+}
+
+.footer .footer-container .footer-flex-column h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.footer .footer-container .footer-flex-column h2::before {
+  content: open-quote;
+  color: #d8670b;
+  font-size: 4rem;
+  position: absolute;
+  margin-top: -3rem;
+}
+
+.footer .footer-container .footer-flex-column h2::after {
+  content: close-quote;
+  color: #d8670b;
+  font-size: 4rem;
+  position: absolute;
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 62rem) {
+  .container-body h2 {
+    font-size: 1.3rem;
+  }
+  .container-body h3 {
+    font-size: 1rem;
+  }
+  .footer-flex-column h2 {
+    font-size: 1.5rem !important;
+  }
+  .nav-info-container .ul-container p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 37rem) {
+  .col-1 {
+    width: 100% !important;
+    padding-top: 2rem;
+  }
+  .col-2 {
+    width: 100% !important;
+    padding-top: 1rem;
+  }
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header-text {
+    padding: 0 1.3rem;
+  }
+  .container-body .intro-for-problems {
+    top: 45%;
+  }
+  .container-body .intro-for-problems .intro-for-problems-container h1 {
+    font-size: 1.5rem;
+  }
+  .container-body .intro-for-problems .intro-for-problems-container h3 {
+    font-size: 1rem;
+  }
+  .nav-info-container .ul-container p {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 25rem) {
+  .nav-info-container .ul-container p {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
