@@ -1,11 +1,8 @@
-# Simple-page-Developer-Health-
-<p>This Page told us about the problem that faced any developer (Physically, and mentally)</p>
-<p>To see my Simple Portfolio <a href="http://mahmoudalmokdad.pythonanywhere.com">Click Here</a>.</p>
-<img src="images/header.JPG" />
+<h1>Codi-selection-project</h1>
+https://antoinedebes.github.io/Codi-selection-project/
+</br>
+This project was requested by Codi for application. It containes contents of which can improve and prevent form getting side effects from sitting too long on their pcs. It's made by 4 teammates which are : -Antoine Debes -Hussein Abou Hachem -Mahmoud Almokadad -Sharifa Al Assi
 
-<img src="images/body.JPG" />
-<img src="images/mobile-header.JPG" />
-<img src="images/mobile-body.JPG" />
 
 
 
